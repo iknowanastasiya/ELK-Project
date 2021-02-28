@@ -148,6 +148,8 @@ SSH into the control node and follow the steps below:
 	
 		ansible-playbook /etc/ansible/filebeat-playbook.yml
 
+![Filebeat](https://github.com/iknowanastasiya/ELK-Project/blob/main/Images/Filebeat.png)
+
  Installing Metricbeat:
 
 - Run the following command to download and save the playbook to /etc/ansible 
@@ -157,4 +159,4 @@ SSH into the control node and follow the steps below:
 - Use the following command to run the playbook:
 	
 		ansible-playbook /etc/ansible/metric-playbook.yml
-
+![Metricbeat](https://github.com/iknowanastasiya/ELK-Project/blob/main/Images/Metricbeat.png)
