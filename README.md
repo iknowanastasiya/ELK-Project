@@ -11,7 +11,7 @@ These files have been tested and used to generate a live ELK deployment on Azure
 
 [ELK Install](https://github.com/iknowanastasiya/ELK-Project/blob/main/Ansible/install-elk.yml)
 
-[DVWA](Ansible/dvwa-playbook.yml)
+[DVWA](https://github.com/iknowanastasiya/ELK-Project/blob/main/Ansible/dvwa-playbook.yml)
 
 [Filebeat](https://github.com/iknowanastasiya/ELK-Project/blob/main/Ansible/filebeat-playbook.yml)
 
