@@ -149,6 +149,7 @@ For filebeat and metricbeat installation save configuration files to /etc/ansibl
 - Use the following command to run the playbook:
 	
 		ansible-playbook /etc/ansible/filebeat-playbook.yml
+Successful installation.
 
 ![Filebeat](https://github.com/iknowanastasiya/ELK-Project/blob/main/Images/Filebeat.png)
 
@@ -161,4 +162,5 @@ For filebeat and metricbeat installation save configuration files to /etc/ansibl
 - Use the following command to run the playbook:
 	
 		ansible-playbook /etc/ansible/metric-playbook.yml
+Successful installation. 
 ![Metricbeat](https://github.com/iknowanastasiya/ELK-Project/blob/main/Images/Metricbeat.png)
