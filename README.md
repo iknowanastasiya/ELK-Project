@@ -62,7 +62,7 @@ The machines on the internal network are not exposed to the public Internet.
 
 Only the jump box machine can accept connections from the Internet. Access to this machine is only allowed from the following IP addresses:
 
-- 71.56.19.108
+- personal ip
 
 Machines within the network can only be accessed by jump box or servers in the private network via SSH.
 
@@ -72,12 +72,12 @@ A summary of the access policies in place can be found in the table below.
 
 | Name | Publicly Accessible | Allowed IP Addresses |
 |------|----------------|---------------------|
-| Jump Box | Yes | 71.56.19.108 |
+| Jump Box | Yes | personal ip |
 | Web-1 | No | 10.0.0.5 |
 | Web-2 | No | 10.0.0.5 |
 | Web-3 | No | 10.0.0.5 |
-| Web LB | Yes | 71.56.19.108 |
-| Elk | Yes | 10.0.0.5/71.56.19.108 |
+| Web LB | Yes | personal ip |
+| Elk | Yes | 10.0.0.5/personal ip |
 
 ### ELK Configuration
 
