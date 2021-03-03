@@ -138,7 +138,7 @@ SSH into the control node and follow the steps below:
 		http://[your_elk_server_ip]:5601/app/kibana.
 ![Kibana](https://github.com/iknowanastasiya/ELK-Project/blob/main/Images/Kibana.png)
 
- For filebeat and metricbeat installation save configuration files ....TODO
+For filebeat and metricbeat installation save configuration files to /etc/ansible/files. For Filebeat installation scroll to lines #1106 and #1806 and replace the IP address with the IP address of your ELK machine. 
  
  Installing Filebeats:
 
